@@ -1,10 +1,11 @@
 {
   "name": "open-tibia-library",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "OpenTibiaLibrary",
   "files": [
     "dist"
   ],
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
