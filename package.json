@@ -1,6 +1,6 @@
 {
   "name": "open-tibia-library",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "OpenTibiaLibrary",
   "files": [
     "dist"
@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
     "watch": "webpack --config webpack.config.js --watch",
-    "publish": "esbuild modules/**/*.ts --outdir=dist --bundle --minify"
+    "publish": "esbuild modules/*.ts --outdir=dist --bundle --minify --format=esm"
   },
   "author": "Gesior.pl (Jerzy Skalski)",
   "license": "MIT",
