@@ -1,6 +1,6 @@
 {
   "name": "open-tibia-library",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "OpenTibiaLibrary",
   "files": [
     "dist"
@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
     "watch": "webpack --config webpack.config.js --watch",
-    "publish": "esbuild modules/**/*.ts --outdir=dist --bundle --minify --format=cjs --target=es2016"
+    "publish": "esbuild modules/**/*.ts --outdir=dist --bundle --minify --format=cjs --target=es2015"
   },
   "author": "Gesior.pl (Jerzy Skalski)",
   "license": "MIT",
@@ -34,6 +34,7 @@
   "dependencies": {
     "esbuild": "^0.18.10",
     "gif.js": "^0.2.0",
-    "jszip": "^3.2.2"
+    "jszip": "^3.2.2",
+    "xhr2": "^0.2.1"
   }
 }
