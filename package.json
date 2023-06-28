@@ -1,12 +1,12 @@
 {
   "name": "open-tibia-library",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "OpenTibiaLibrary",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "esbuild --bundle --minify --sourcemap --format=esm --outdir=dist modules/**/*.ts modules/*.ts",
+    "build": "esbuild --bundle --minify --sourcemap --format=cjs --outdir=dist modules/**/*.ts modules/*.ts",
     "clean": "rm -rf dist"
   },
   "author": "Gesior.pl (Jerzy Skalski)",
