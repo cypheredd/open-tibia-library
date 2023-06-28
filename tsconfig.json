@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-    "module": "es6",
-    "target": "es6",
-    "sourceMap": true,
-    "allowSyntheticDefaultImports": true,
-    "types" : ["node", "jszip"]
-  }
+    "target": "es2016", 
+    "module": "commonjs",  
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,                   
+    "skipLibCheck": true                  
+  },
+  "exclude": ["node_modules", "dist"]
 }
